@@ -213,6 +213,8 @@ declare module Konva {
         pixelSize(pixelSize: number) : Node;
         position() : Vector2d;
         position(position: Vector2d) : Node;
+        preventDefault() : boolean;
+        preventDefault(preventDefault: boolean) : Node;
         red() : number;
         red(red: number) : Node;
         remove() : Node;
